@@ -14,7 +14,6 @@ class Gui:
         
         # create label for header
         self.lbl_header = tk.Label(text="Work",font=("Helvetica", 32),bg="#F8EDE3")
-        
 
         # create a frame
         self.frame_image = tk.Frame(self.root, width=300, height=300, bg="#F8EDE3")
@@ -52,6 +51,3 @@ class Gui:
     def run(self):
         self.root.mainloop()
 
-# create and run window
-window = Gui()
-window.run()
